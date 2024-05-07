@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Act</string>
+    <string name="TvTitulo">Bienvenido</string>
+    <string name="IvIcone">icono</string>
+    <string name="EtNombres">Introduzca los Nombres</string>
+    <string name="EtApellido">Introduzca contraseña</string>
+    <string name="EtEdad">Introduzca contraseña</string>
+    <string name="TvDias">Ingresa con nosotros y publicate</string>
+    <string name="SbDias"></string>
+    <string name="BtnCalcular">Empieza tu Aventura</string>
+    <string name="BtnLimpiar">Registrate</string>
+    <string name="BtnImprimir">Imprimir</string>
+    <!--
+    impresion
+    -->
+    <string name="TvImpresion"></string>
+    <string name="title_activity_info_empresa">InfoEmpresa</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/TvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/TvTitulo"
+        android:padding="4dp" android:textAlignment="center"
+        android:textSize="24dp" tools:text="@string/TvTitulo"
+        />
+    <ImageView
+        android:id="@+id/IvIcone"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:contentDescription="@string/IvIcone"
+        app:srcCompat="@drawable/icone"
+        />
+    <EditText
+        android:id="@+id/EtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/EtNombres"
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/EtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/EtEdad"
+        android:minHeight="48dp"
+        android:inputType="numberSigned"
+        />
+    <TextView
+        android:id="@+id/TvDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/TvDias"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="@string/TvDias"
+        />
+
+    <Button
+        android:id="@+id/BtnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnCalcular"
+        tools:text="@string/BtnCalcular"
+        />
+    <Button
+        android:id="@+id/BtnLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnLimpiar"
+        tools:text="@string/BtnLimpiar"
+        />
+</LinearLayout>

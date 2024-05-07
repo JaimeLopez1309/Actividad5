@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoEmpresa">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#6750a4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/BtnLogin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:padding="24dp"
+            android:src="@drawable/login"
+            />
+
+
+        <ImageButton
+            android:id="@+id/BtnHome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/home"
+            />
+
+        <EditText
+            android:id="@+id/EtSearch"
+            android:layout_width="255dp"
+            android:layout_height="50dp"
+            android:ems="1"
+            android:inputType="text"
+            android:text="¿Que estas Buscando?"
+            />
+
+        <ImageButton
+            android:id="@+id/BtnSearch"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/search"
+            android:ems="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+        <ImageView
+            android:id="@+id/IvImgInfo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            />
+        <TextView
+            android:id="@+id/TwTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Aqui Va el titulo del empleo"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            />
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+        <TextView
+            android:id="@+id/TwContent"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Aqui hay una descripción de la empresa donde se coloca información contacto, además de precios y servicios ofrecidos "
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/BtnAddServ"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Agregar Servicio"
+
+        />
+</LinearLayout>
